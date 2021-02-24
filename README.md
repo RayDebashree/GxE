@@ -5,7 +5,7 @@ Currently, it has one function `JMA2df` that implements a joint 2-df SNP and SNP
 
 1. Manning, A.K., LaValley, M., Liu, C.T., ... , Dupuis, J. (2011) "Meta-analysis of gene-environment interaction: joint estimation of SNP and SNP x environment regression coefficients". *Genet Epidemiol* 35(1), 11-18, https://doi.org/10.1002/gepi.20546
 
-2. Zhang, W., Venkataraghavan, S., Hetmanski, J.B., ... , Ray, D., Beaty, T.H. (2021+, under review) "Detecting gene-environment interaction for maternal exposures using case-parent trios ascertained through an orofacial cleft case". 
+2. Zhang, W., Venkataraghavan, S., Hetmanski, J.B., ... , Ray, D., Beaty, T.H. (2021+, *under review*) "Detecting gene-environment interaction for maternal exposures using case-parent trios ascertained through an orofacial cleft case". 
 
 **Key Words:** Gene-environment test; GWAS summary statistics; Interaction test; Meta-analysis
 
