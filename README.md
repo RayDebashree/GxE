@@ -1,7 +1,7 @@
 ### Description
 GxE is intended to be a suite of R functions for implementing gene-environment interaction (GxE) tests on a genome-wide scale. 
 
-Currently, it has one function `JMA2df` that implements a joint 2-df SNP and SNPxE association test using GWAS summary statistics. It is based on the statistical method proposed in Manning et al (2011), and as used by Zhang et al (2021+). Please refer/cite *both* articles if this function is used:
+Currently, it has one function `JMA2df` that implements a joint 2-df SNP and SNPxE association test using GWAS summary statistics. It is based on the statistical method proposed in Manning et al (2011), and as used in Zhang et al (2021+). Please refer/cite *both* articles if this function is used:
 
 1. Manning, A.K., LaValley, M., Liu, C.T., ... , Dupuis, J. (2011) "Meta-analysis of gene-environment interaction: joint estimation of SNP and SNP x environment regression coefficients". *Genet Epidemiol* 35(1), 11-18, https://doi.org/10.1002/gepi.20546
 
