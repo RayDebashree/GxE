@@ -3,9 +3,9 @@ GxE is intended to be a suite of R functions for implementing gene-environment i
 
 Currently, it has one function `JMA2df` that implements a joint 2-df SNP and SNPxE association test using GWAS summary statistics. It is based on the statistical method proposed in Manning et al (2011), and as used in Zhang et al (2021+). Please refer/cite *both* articles if this function is used:
 
-1. Manning, A.K., LaValley, M., Liu, C.T., ... , Dupuis, J. (2011) "Meta-analysis of gene-environment interaction: joint estimation of SNP and SNP x environment regression coefficients". *Genet Epidemiol* 35(1), 11-18, https://doi.org/10.1002/gepi.20546
+1. Manning, A.K., LaValley, M., Liu, C.T., ... , Dupuis, J. (2011) "Meta-analysis of gene-environment interaction: joint estimation of SNP and SNP x environment regression coefficients". *Genet Epidemiol* 35(1):11-18, https://doi.org/10.1002/gepi.20546
 
-2. Zhang, W., Venkataraghavan, S., Hetmanski, J.B., ... , Ray, D., Beaty, T.H. (2021+, *under review*) "Detecting gene-environment interaction for maternal exposures using case-parent trios ascertained through a case with nonsyndromic orofacial cleft". 
+2. Zhang, W., Venkataraghavan, S., Hetmanski, J.B., ... , Ray, D., Beaty, T.H. (2021) "Detecting gene-environment interaction for maternal exposures using case-parent trios ascertained through a case with nonsyndromic orofacial cleft". *Front Cell Dev Biol* 9:621018, https://doi.org/10.3389/fcell.2021.621018
 
 **Key Words:** Gene-environment test; GWAS summary statistics; Interaction test; Meta-analysis
 
