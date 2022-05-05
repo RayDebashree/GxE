@@ -34,8 +34,8 @@ JMA2df(SNP.coef, GXE.coef, SNP.se, GXE.se, SNP.GXE.cov=NULL, trio.package.input=
 | `GXE.coef` | The vector of estimated GxE effects, from the afore-mentioned model, of size `k` . |
 | `SNP.se` | The vector of estimated standard errors of SNP effects, from the afore-mentioned model, of size `k`. |
 | `GXE.se` | The vector of estimated standard errors of GxE effects, from the afore-mentioned model, of size `k`. |
-| `SNP.GXE.cov` | The vector of estimated covariance between SNP and GxE effects, from the afore-mentioned model, of size `k`. |
-| `trio.package.input` | If the SNP and GxE effect estimates are obtained from the [R trio package](https://www.bioconductor.org/packages/release/bioc/html/trio.html) (as used in Zhang et al, 2021+), then no input should be given for `SNP.GXE.cov`. |
+| `SNP.GXE.cov` | The vector of estimated covariance between SNP and GxE effects, from the afore-mentioned model, of size `k`. Default value is `NULL`.|
+| `trio.package.input` | Logical; default value is `FALSE`. If `TRUE`, the SNP and GxE effect estimates are obtained from the [R trio package](https://www.bioconductor.org/packages/release/bioc/html/trio.html) (as used in Zhang et al, 2021), and no input should be provided for `SNP.GXE.cov`. |
 
 #### Value
 | Output | Description |
@@ -46,5 +46,5 @@ JMA2df(SNP.coef, GXE.coef, SNP.se, GXE.se, SNP.GXE.cov=NULL, trio.package.input=
 | `GXE.se.JMA` | Jointly meta-analyzed standard error of GxE effect estimate for the afore-mentioned 2-df model. |
 | `SNP.GXE.cov.JMA` | Jointly meta-analyzed covariance between SNP and GxE effect estimates for the afore-mentioned 2-df model. |
 | `wald2df.stat.JMA` | 2-df Wald test statistic for the joint test of SNP and GxE effects. |
-| `wald2df.pval.JMA` | P-value of the 2-df Wald test. P-value below chosen threshold (usually the traditional genome-wide threshold of 5e-7) means either or both the SNP and the GxE effects are statistically significantly different from 0. |
+| `wald2df.pval.JMA` | P-value of the 2-df Wald test. P-value below chosen threshold (usually the traditional genome-wide threshold of 5e-8) means either or both the SNP and the GxE effects are statistically significantly different from 0. |
 
